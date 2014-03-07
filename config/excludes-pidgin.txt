@@ -1,0 +1,6 @@
+\plugins\perl\
+\spellcheck\
+\plugins\perl.dll
+\plugins\tcl.dll
+\pidgin.exe
+\libgtkspell.dll
