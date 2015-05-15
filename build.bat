@@ -6,7 +6,7 @@ echo.
 
 @rem Setting Versions & Directories
 if [%1]==[] (
-set VERSION=2.10.9
+set VERSION=2.10.11
 ) else (
 set VERSION=%1
 )
@@ -20,7 +20,7 @@ set CLAMPARAMS=--infected --show-progress --recursive --detect-pua --include-pua
 
 @rem ## Versions
 set GTKVERSION=2.16.6.2
-set OTRVERSION=4.0.0-1
+set OTRVERSION=4.0.1
 set KNOTVERSION=0.3.6
 set GNTPVERSION=rev23
 @rem Open Steam
