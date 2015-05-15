@@ -4,10 +4,6 @@ echo.
 echo Pidgin Portable Builder
 echo.
 
-if [%1]==[--help] goto usage
-if [%1]==[--clean] goto clean
-
-
 @rem Setting Versions & Directories
 if [%1]==[] (
 set VERSION=2.10.9
@@ -37,6 +33,9 @@ set TWTRVERSION=0.12.0
 set TORCVERSION=2.0-alpha-14
 
 set LOCALES=af am ar ast az be@latin bg bn bn_IN bs ca CA@VAL~1 cs da de dz el en_AU en_CA en_GB eo es et eu fa fi fr ga gl gu he hi hr hu hy id it ja ka km kn ko ku lo lt mai mhr mk mn mr ms_MY my_MM nb ne nl nn oc or pa pl ps pt pt_BR ro ru si sk sl sq sr sr@latin sv sw ta te th tr uk ur vi xh zh_CN zh_HK zh_TW
+
+if [%1]==[--help] goto usage
+if [%1]==[--clean] goto clean
 
 @rem ###############################################################################################
 @rem ###############################################################################################
